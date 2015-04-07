@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "realGoodPractice/TypeTable.swift"
+            timestampString = "450064190.854825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "TypeTable"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "realGoodPractice/TypeTable.swift"
+            timestampString = "450064191.287945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "TypeTable"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "realGoodPractice.TypeTable.restaurantsArray.getter : Swift.Array&lt;realGoodPractice.RestaurantModel&gt;"
+                  moduleName = "realGoodPractice"
+                  urlString = "file:///Users/Jon/Desktop/realGoodPractice/realGoodPractice/TypeTable.swift"
+                  timestampString = "450064805.21978"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "realGoodPractice.TypeTable.restaurantsArray.materializeForSet : Swift.Array&lt;realGoodPractice.RestaurantModel&gt;"
+                  moduleName = "realGoodPractice"
+                  urlString = "file:///Users/Jon/Desktop/realGoodPractice/realGoodPractice/TypeTable.swift"
+                  timestampString = "450064805.220135"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "realGoodPractice.TypeTable.init (realGoodPractice.TypeTable.Type)(style : C.UITableViewStyle) -&gt; realGoodPractice.TypeTable"
+                  moduleName = "realGoodPractice"
+                  urlString = "file:///Users/Jon/Desktop/realGoodPractice/realGoodPractice/TypeTable.swift"
+                  timestampString = "450064805.220297"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1010">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "realGoodPractice.TypeTable.init (realGoodPractice.TypeTable.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; realGoodPractice.TypeTable"
+                  moduleName = "realGoodPractice"
+                  urlString = "file:///Users/Jon/Desktop/realGoodPractice/realGoodPractice/TypeTable.swift"
+                  timestampString = "450064805.220601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1006">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "realGoodPractice.TypeTable.init (realGoodPractice.TypeTable.Type)() -&gt; realGoodPractice.TypeTable"
+                  moduleName = "realGoodPractice"
+                  urlString = "file:///Users/Jon/Desktop/realGoodPractice/realGoodPractice/TypeTable.swift"
+                  timestampString = "450064805.220752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "987">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "realGoodPractice.TypeTable.init (realGoodPractice.TypeTable.Type)(coder : ObjectiveC.NSCoder) -&gt; realGoodPractice.TypeTable"
+                  moduleName = "realGoodPractice"
+                  urlString = "file:///Users/Jon/Desktop/realGoodPractice/realGoodPractice/TypeTable.swift"
+                  timestampString = "450064805.220899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1010">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "realGoodPractice/RestaurantTable.swift"
+            timestampString = "450107077.913817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

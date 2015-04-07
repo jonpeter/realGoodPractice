@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FC4155311AD3573D0012B15B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155301AD3573D0012B15B /* AppDelegate.swift */; };
-		FC4155331AD3573D0012B15B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155321AD3573D0012B15B /* ViewController.swift */; };
 		FC4155361AD3573D0012B15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4155341AD3573D0012B15B /* Main.storyboard */; };
 		FC4155381AD3573D0012B15B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4155371AD3573D0012B15B /* Images.xcassets */; };
 		FC41553B1AD3573D0012B15B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4155391AD3573D0012B15B /* LaunchScreen.xib */; };
 		FC4155471AD3573D0012B15B /* realGoodPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155461AD3573D0012B15B /* realGoodPracticeTests.swift */; };
+		FC4155511AD35B5B0012B15B /* TypeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155501AD35B5B0012B15B /* TypeTable.swift */; };
+		FC4155531AD35B710012B15B /* RestaurantTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155521AD35B710012B15B /* RestaurantTable.swift */; };
+		FC4155551AD35B8C0012B15B /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155541AD35B8C0012B15B /* RestaurantInfoView.swift */; };
+		FC4155571AD35BBC0012B15B /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155561AD35BBC0012B15B /* RestaurantModel.swift */; };
+		FC4155591AD35CAE0012B15B /* typecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4155581AD35CAE0012B15B /* typecell.swift */; };
+		FC41555B1AD35CC20012B15B /* restaurantcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41555A1AD35CC20012B15B /* restaurantcell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		FC41552B1AD3573D0012B15B /* realGoodPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realGoodPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC41552F1AD3573D0012B15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4155301AD3573D0012B15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC4155321AD3573D0012B15B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC4155351AD3573D0012B15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4155371AD3573D0012B15B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC41553A1AD3573D0012B15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC4155401AD3573D0012B15B /* realGoodPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realGoodPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4155451AD3573D0012B15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4155461AD3573D0012B15B /* realGoodPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realGoodPracticeTests.swift; sourceTree = "<group>"; };
+		FC4155501AD35B5B0012B15B /* TypeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeTable.swift; sourceTree = "<group>"; };
+		FC4155521AD35B710012B15B /* RestaurantTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTable.swift; sourceTree = "<group>"; };
+		FC4155541AD35B8C0012B15B /* RestaurantInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
+		FC4155561AD35BBC0012B15B /* RestaurantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		FC4155581AD35CAE0012B15B /* typecell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = typecell.swift; sourceTree = "<group>"; };
+		FC41555A1AD35CC20012B15B /* restaurantcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restaurantcell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +87,14 @@
 		FC41552D1AD3573D0012B15B /* realGoodPractice */ = {
 			isa = PBXGroup;
 			children = (
-				FC4155301AD3573D0012B15B /* AppDelegate.swift */,
-				FC4155321AD3573D0012B15B /* ViewController.swift */,
 				FC4155341AD3573D0012B15B /* Main.storyboard */,
+				FC4155561AD35BBC0012B15B /* RestaurantModel.swift */,
+				FC4155501AD35B5B0012B15B /* TypeTable.swift */,
+				FC4155581AD35CAE0012B15B /* typecell.swift */,
+				FC4155521AD35B710012B15B /* RestaurantTable.swift */,
+				FC41555A1AD35CC20012B15B /* restaurantcell.swift */,
+				FC4155541AD35B8C0012B15B /* RestaurantInfoView.swift */,
+				FC4155301AD3573D0012B15B /* AppDelegate.swift */,
 				FC4155371AD3573D0012B15B /* Images.xcassets */,
 				FC4155391AD3573D0012B15B /* LaunchScreen.xib */,
 				FC41552E1AD3573D0012B15B /* Supporting Files */,
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4155331AD3573D0012B15B /* ViewController.swift in Sources */,
+				FC4155511AD35B5B0012B15B /* TypeTable.swift in Sources */,
+				FC4155531AD35B710012B15B /* RestaurantTable.swift in Sources */,
 				FC4155311AD3573D0012B15B /* AppDelegate.swift in Sources */,
+				FC4155551AD35B8C0012B15B /* RestaurantInfoView.swift in Sources */,
+				FC4155571AD35BBC0012B15B /* RestaurantModel.swift in Sources */,
+				FC41555B1AD35CC20012B15B /* restaurantcell.swift in Sources */,
+				FC4155591AD35CAE0012B15B /* typecell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
